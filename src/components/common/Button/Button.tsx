@@ -24,7 +24,7 @@ export function Button({
       buttonClass += ` ${styles.buttonOutlined}`;
       break;
     case ButtonVariant.Text:
-      buttonClass += ` ${styles.buttonText}`;
+      buttonClass += ` ${styles.buttonText}`; //teste
       break;
   }
 
